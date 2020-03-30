@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.53) at 15.09.2018_12-57-57-->
+<macros>
+  <macro name="weapon_gen_s_mining_01_mk1_macro" class="weapon">
+    <component ref="weapon_gen_s_mining_01_mk1" />
+    <properties>
+      <identification name="{20105,1104}" basename="{20105,1101}" shortname="{20105,1105}" description="{20105,1102}" mk="1" />
+      <bullet class="bullet_gen_s_mining_01_mk1_macro" />
+      <rotationspeed max="90" />
+      <reload />
+      <hull max="500" hittable="0" />
+    </properties>
+  </macro>
+</macros>

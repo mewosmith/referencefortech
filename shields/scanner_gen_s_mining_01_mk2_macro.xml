@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 10.08.2018_15-58-48-->
+<macros>
+  <macro name="scanner_gen_s_mining_01_mk2_macro" class="scanner">
+    <component ref="scanner_gen_s_basic_01_mk1" />
+    <properties>
+      <identification name="{20108,1031}" description="{20108,1032}" unique="0" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.121) at 29.10.2019_13-05-00-->
+<macros>
+  <macro name="engine_gen_xs_static_macro" class="engine">
+    <component ref="generic_engine" />
+    <properties>
+      <thrust forward="0" reverse="0" strafe="0" pitch="150" yaw="150" roll="150" />
+      <angular />
+      <hull integrated="1" />
+      <sounds>
+        <ambient ref="enginedetail_masstraffic" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

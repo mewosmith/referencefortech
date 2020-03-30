@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 10.10.2018_17-54-38-->
+<macros>
+  <macro name="weapon_gen_mine_01_macro" class="mine">
+    <component ref="weapon_gen_mine_01" />
+    <properties>
+      <identification name="{20201,20201}" description="{20201,20202}" deployable="1" />
+      <explosiondamage value="10000" />
+      <trigger oncollision="1" />
+      <hull max="100" />
+      <effects>
+        <explosion ref="explosion_props_wps_mine_01" />
+      </effects>
+      <physics mass="3" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.124) at 16.01.2020_18-34-20-->
+<macros>
+  <macro name="turret_par_m_laser_02_mk1_macro" class="turret">
+    <component ref="turret_par_m_laser_02_mk1" />
+    <properties>
+      <identification name="{20105,4014}" basename="{20105,4011}" shortname="{20105,4015}" makerrace="paranid" description="{20105,4012}" mk="1" />
+      <bullet class="bullet_gen_turret_m_laser_01_mk1_macro" />
+      <rotationspeed max="105" />
+      <reload rate="1" time="1" />
+      <hull max="750" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

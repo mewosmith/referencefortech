@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Lorraine (192.168.3.146) at 28.08.2018_13-35-28-->
+<macros>
+  <macro name="scanner_gen_s_object_01_mk1_macro" class="scanner">
+    <component ref="scanner_gen_s_basic_01_mk1" />
+    <properties>
+      <identification name="{20108,1041}" description="{20108,1042}" />
+      <scan maxlevel="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Owen (192.168.3.131) at 01.12.2017_13-45-26-->
+<macros>
+  <macro name="cockpit_gen_invisible_01_macro" class="cockpit">
+    <component ref="cockpit_invisible" />
+    <properties>
+      <identification unique="0" />
+      <wall opaque="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: CBJ (192.168.3.57) at 30.07.2019_12-49-46-->
+<macros>
+  <macro name="weapon_gen_s_cannon_01_mk2_macro" class="weapon">
+    <component ref="weapon_gen_s_cannon_01_mk2" />
+    <properties>
+      <identification name="{20105,1274}" basename="{20105,1271}" shortname="{20105,1275}" description="{20105,1272}" mk="2" />
+      <bullet class="bullet_gen_s_cannon_01_mk2_macro" />
+      <heat overheat="10000" cooldelay="0.6" coolrate="2200" reenable="5000" />
+      <rotationspeed max="12" />
+      <rotationacceleration max="6" />
+      <reload />
+      <hull hittable="0" />
+      <effects>
+        <firing start="startshooting_gen_s_shotgun_01_mk1" stop="stopshooting_gen_s_shotgun_01_mk1" />
+      </effects>
+      <sounds>
+        <firing ref="flak" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

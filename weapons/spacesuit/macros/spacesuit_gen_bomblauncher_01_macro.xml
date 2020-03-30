@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Markus (192.168.3.117) at 06.08.2018_16-20-27-->
+<macros>
+  <macro name="spacesuit_gen_bomblauncher_01_macro" class="bomblauncher">
+    <component ref="spacesuit_gen_bomblauncher_01" />
+    <properties>
+      <identification name="{20113,1031}" unique="0" />
+      <bullet class="bomb_player_limpet_mine_01_mk1_macro" />
+      <rotationspeed max="100" />
+      <reload rate="1" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

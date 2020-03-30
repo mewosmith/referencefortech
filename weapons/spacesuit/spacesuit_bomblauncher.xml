@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<components>
+	<component name="spacesuit_bomblauncher" class="bomblauncher">
+		<source geometry="assets\props\WeaponSystems\spacesuit\spacesuit_bomblauncher_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" hidden="true" tags="part detail_xs nocollision  ">
+				<offset>
+					<position x="-7.544357E-08" y="-7.544357E-08" z="7.606052E-02"/>
+				</offset>
+				<restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="10 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="detail_xs_rotator">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hullpattern"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.904195E-03" y="2.904195E-03" z="1.21661E-03"/>
+							<center x="6.437517E-12" y="6.437517E-12" z="0"/>
+						</size>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part platformcollision forceoutline  " parent="detail_xs_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="10 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="barel">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.076971E-02" y="1.076918E-02" z="3.241942E-03"/>
+							<center x="1.025099E-08" y="-1.023811E-08" z="3.259078E-03"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Con_laser01" tags="laser " parent="barel">
+				<offset>
+					<position x="-2.709081E-03" y="1.445328E-06" z="1.722503E-02"/>
+				</offset>
+			</connection>
+			<connection name="Connection03" tags="part platformcollision forceoutline  ">
+				<offset/>
+				<parts>
+					<part name="part_mount">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.775548E-02" y="2.668929E-02" z="5.285154E-02"/>
+							<center x="0" y="0" z="5.185499E-02"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="WeaponCon_01" tags="component weapon spacesuit bomblauncher ">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.120) at 30.11.2018_10-43-13-->
+<macros>
+  <macro name="weapon_gen_m_mining_01_mk2_macro" class="weapon">
+    <component ref="weapon_gen_m_mining_01_mk2" />
+    <properties>
+      <identification name="{20105,2114}" basename="{20105,2111}" shortname="{20105,2115}" description="{20105,2112}" mk="2" />
+      <bullet class="bullet_gen_m_mining_01_mk2_macro" />
+      <rotationspeed max="90" />
+      <reload />
+      <hull max="1001" hittable="0" />
+      <effects>
+        <firing start="startshooting_gen_m_mining_01_mk1" stop="stopshooting_gen_m_mining_01_mk1" />
+      </effects>
+      <sounds>
+        <firing ref="wpn_beam_mining_muzzle" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 10.10.2018_17-54-45-->
+<macros>
+  <macro name="weapon_gen_mine_03_macro" class="mine">
+    <component ref="weapon_gen_mine_03" />
+    <properties>
+      <identification name="{20201,20901}" description="{20201,20902}" deployable="1" icon="mapob_mine" />
+      <explosiondamage value="10000" />
+      <trigger friendfoe="1" />
+      <range abort="1500" follow="1000" trigger="80" />
+      <hull max="100" />
+      <effects>
+        <explosion ref="explosion_props_wps_mine_01" />
+      </effects>
+      <physics mass="3" />
+    </properties>
+    <connections>
+      <connection ref="connection_engine01">
+        <macro ref="engine_special_mine_02_macro" connection="ship" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

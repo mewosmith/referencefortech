@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.61) at 03.03.2020_09-14-37-->
+<macros>
+  <macro name="turret_xen_m_laser_02_mk1_macro" class="turret">
+    <component ref="turret_xen_m_laser_02_mk1" />
+    <properties>
+      <identification name="{20105,4034}" basename="{20105,4031}" shortname="{20105,4035}" makerrace="xenon" description="{20105,4032}" mk="1" />
+      <bullet class="bullet_xen_turret_m_laser_01_mk1_macro" />
+      <rotationspeed max="160" />
+      <reload rate="1" time="1" />
+      <hull max="800" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

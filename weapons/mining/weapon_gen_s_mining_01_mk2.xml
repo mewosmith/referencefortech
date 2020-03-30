@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<components>
+	<component name="weapon_gen_s_mining_01_mk2" class="weapon">
+		<source geometry="assets\props\WeaponSystems\mining\weapon_gen_s_mining_01_mk2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="Connection001" hidden="true" tags="part detail_xs nocollision  ">
+				<offset>
+					<position x="-1.591415E-08" y="-1.591415E-08" z="1.441205"/>
+				</offset>
+				<restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="10 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="detail_xs_rotator">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hullpattern"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.0586789" y="0.0586789" z="2.458145E-02"/>
+							<center x="1.012992E-09" y="1.012992E-09" z="0"/>
+						</size>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection002" tags="part platformcollision forceoutline  " parent="detail_xs_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="10 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="barel" wreck="barel_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.2337511" y="0.2337397" z="3.844028E-03"/>
+							<center x="1.012992E-09" y="1.012992E-09" z="7.420874E-02"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Con_laser01" tags="laser " parent="barel">
+				<offset>
+					<position x="-2.709076E-03" y="2.123852E-02" z="0.1275666"/>
+				</offset>
+			</connection>
+			<connection name="Connection003" tags="part iklink  " parent="detail_xs_rotator">
+				<offset>
+					<position x="3.65571" y="0" z="0"/>
+				</offset>
+			</connection>
+			<connection name="Connection004" tags="part platformcollision forceoutline  ">
+				<offset/>
+				<parts>
+					<part name="part_mount" wreck="part_mount_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.9584248" y="0.5356392" z="1.0607"/>
+							<center x="0" y="0" z="1.040699"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection005" tags="part nocollision forceoutline detail_m  ">
+				<offset>
+					<position x="0" y="1.180967E-03" z="1.149246"/>
+				</offset>
+				<parts>
+					<part name="detail_m_gun_decals">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1paint.paint_p1_decal_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.9622909" y="0.4183594" z="0.9602805"/>
+							<center x="0" y="9.19681E-09" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection006" tags="part  ">
+				<offset>
+					<position x="3.65571" y="0" z="0"/>
+				</offset>
+				<parts/>
+			</connection>
+			<connection name="WeaponCon_01" tags="component weapon small mining ">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

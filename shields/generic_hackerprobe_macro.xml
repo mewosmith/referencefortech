@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 15.06.2018_13-16-54-->
+<macros>
+  <macro name="generic_hackerprobe_macro" class="hackerprobe">
+    <component ref="generic_hackerprobe" />
+    <properties>
+      <identification unique="0" />
+      <hack range="1000" angle="15" duration="10800" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

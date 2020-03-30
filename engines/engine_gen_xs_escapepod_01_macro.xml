@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.120) at 03.05.2019_15-02-24-->
+<macros>
+  <macro name="engine_gen_xs_escapepod_01_macro" class="engine">
+    <component ref="generic_engine" />
+    <properties>
+      <identification mk="1" />
+      <travel charge="3" thrust="18" attack="45" release="30" />
+      <thrust forward="221" reverse="199" strafe="39.94" pitch="43.012" yaw="49.157" roll="73.735" />
+      <angular />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

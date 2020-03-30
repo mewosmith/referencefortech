@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 26.07.2018_15-58-52-->
+<macros>
+  <macro name="cockpit_gen_invisible_escapepod_01_macro" class="cockpit">
+    <component ref="cockpit_invisible_escapepod" />
+    <properties>
+      <identification unique="0" />
+      <wall opaque="1" />
+    </properties>
+  </macro>
+</macros>
